@@ -1,0 +1,21 @@
+[
+  {
+    "keybinding": "Ctrl+O",
+    "triggers": [
+      {
+        "type": "routing",
+        "actions": [
+          {
+            "name": "toggle",
+            "targets": [
+              {
+                "inputs": ["Mic"],
+                "outputs": ["Broadcast Stream Mix", "Chat Mic"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
